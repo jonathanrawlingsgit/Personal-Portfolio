@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
+import Avatar from 'avataaars'
+
 
 class Landing extends Component {
     render() {
@@ -7,11 +9,19 @@ class Landing extends Component {
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className='landing-grid'>
                     <Cell col={12}>
-                        <img 
-                          src="https://www.btcpa.net/content/uploads/2020/04/Male-Avatar.jpg"
-                          alt="avatar"
-                          className="avatar-img"
-                          />
+                           <Avatar
+                                avatarStyle='Circle'
+                                topType='ShortHairShortRound'
+                                accessoriesType='Prescription02'
+                                hairColor='Blonde'
+                                facialHairType='Blank'
+                                clotheType='Hoodie'
+                                clotheColor='PastelGreen'
+                                eyeType='Happy'
+                                eyebrowType='DefaultNatural'
+                                mouthType='Smile'
+                                skinColor='Pale'
+                            />
 
                           <div className="banner-text">
                               <h1>Full Stack Web Developer</h1>
