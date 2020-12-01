@@ -18,7 +18,7 @@ class Projects extends Component {
                 </CardText>
                 <CardActions border>
                     <Button colored>Github</Button>
-                    <Button colored>CodePen</Button>
+                    {/* <Button colored>CodePen</Button> */}
                     <Button colored>LiveDemo</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
@@ -28,13 +28,13 @@ class Projects extends Component {
 
             {/* Project 2 */}
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png)'}}>React Project #1</CardTitle>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/ppjMhfv.jpg)',backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat: 'no-repeat'}}>GoldenGun</CardTitle>
                 <CardText>
-                    asdjflasdfjaslksdjkfjkasdfkalksdf;aslkdfasdf
+                Vanilla JS Web Browser point and click shooting game
                 </CardText>
                 <CardActions border>
                     <Button colored>Github</Button>
-                    <Button colored>CodePen</Button>
+                    {/* <Button colored>CodePen</Button> */}
                     <Button colored>LiveDemo</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
@@ -44,13 +44,14 @@ class Projects extends Component {
 
             {/* Project 3 */}
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png)'}}>React Project #1</CardTitle>
+                <CardTitle style={{color: '#fff', height: '176px', backgroundImage: 'url(https://i.imgur.com/gwxHIff.png)',backgroundPosition:'center',backgroundSize:'cover'}}>Apex-Stat-Tracker</CardTitle>
                 <CardText>
-                    asdjflasdfjaslksdjkfjkasdfkalksdf;aslkdfasdf
+                    Video game stat tracking App created using JavaScript and Vue.js
                 </CardText>
                 <CardActions border>
                     <Button colored>Github</Button>
-                    <Button colored>CodePen</Button>
+                    
+                    {/* <Button colored>CodePen</Button> */}
                     <Button colored>LiveDemo</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
@@ -69,7 +70,7 @@ class Projects extends Component {
             <div><h1>This is Vanilla JavaScript</h1></div>
         )
     }else if(this.state.activeTab === 3) {
-        return <div><h1>This is SQL</h1></div>
+        return <div><h1>This is VuesJs</h1></div>
     }
     
 }
@@ -79,10 +80,10 @@ class Projects extends Component {
         return (
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-                    <Tab>React</Tab>
+                    {/* <Tab>React</Tab>
                     <Tab>Ruby On Rails</Tab>
-                    <Tab>Vanilla JavaScript</Tab>
-                    <Tab>SQL</Tab>
+                    <Tab>JavaScript</Tab> */}
+                    {/* <Tab>Vues Js</Tab> */}
                 </Tabs>
 
                 

@@ -24,27 +24,28 @@ class Landing extends Component {
                             />
 
                           <div className="banner-text">
+                              
                               <h1>Full Stack Web Developer</h1>
 
                               <hr/>
 
-                              <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express | Ruby on Rails | SQL</p>
+                              <p>HTML/CSS | JavaScript | React | VueJs | NodeJs | Express | Ruby on Rails | SQL </p>
                               <div className="social-links">
 
                                   {/* LinkedIn */}
-                                  <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                  <a href="https://www.linkedin.com/in/jonathanorawlings/" rel="noopener noreferrer" target="_blank">
                                       <i className="fa fa-linkedin-square" aria-hidden="true" />
                                   </a>
 
                                   {/* Github */}
-                                  <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                  <a href="https://github.com/jonathanrawlingsgit" rel="noopener noreferrer" target="_blank">
                                       <i className="fa fa-github-square" aria-hidden="true" />
                                   </a>
                                  
                                  {/* Youtube */}
-                                 <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                 {/* <a href="http://google.com" rel="noopener noreferrer" target="_blank">
                                       <i className="fa fa-youtube-square" aria-hidden="true" />
-                                  </a>
+                                  </a> */}
                                 
 
                               </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import  { BrowserRouter, Switch, Route } from 'react-router-dom'
+import  { Switch, Route } from 'react-router-dom'
 import LandingPage from './landingpage'
 import About from './aboutme'
 import Contact from './contact'
@@ -8,7 +8,7 @@ import Resume from './resume'
 
 
 const Main = () => (
-    <BrowserRouter>
+    // <BrowserRouter>
     <Switch>
         <Route exact path="/" component={LandingPage} />
         <Route path="/aboutme" component={About} />
@@ -16,6 +16,6 @@ const Main = () => (
         <Route path="/projects" component={Projects} />
         <Route path="/resume" component={Resume} />
     </Switch>
-    </BrowserRouter>
+    // </BrowserRouter>
 )
 export default Main;

@@ -31,17 +31,16 @@ class Resume extends Component {
 
                         <h2 style={{paddingTop: '2em'}}>Jonathan Rawlings</h2>
                         <h4 style={{color: 'grey'}}>Programmer</h4>
+                        {/* <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} /> */}
+                        {/* <p>Hi my name is Jon and I am full-stack software developer. I have worked with 
+                        </p> */}
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                        <h5>Address</h5>
-                        <p>Chino, CA</p>
-                        <h5>Phone</h5>
-                        <p>(909)215-0173</p>
+                        {/* <h5>Address</h5>
+                        <p>Chino , CA</p>
                         <h5>Email</h5>
-                        <p>Jonraw8@gmail.com</p>
-                        <h5>LinkedIn.com</h5>
+                        <p>Jonraw8@gmail.com</p> */}
+                        {/* <h5>LinkedIn.com</h5>
+                        <p></p> */}
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                     <h2>Education</h2>
@@ -53,39 +52,40 @@ class Resume extends Component {
                         schoolDescription="General Assembly is a private, for-profit education organization founded in early 2011. It maintains campuses in numerous countries throughout the world to teach entrepreneurs and business professionals practical technology skills.It provides courses in mobile and software engineering, data science, product management, and other digital-related courses."
                         />
                     
-                        <Education 
+                        {/* <Education 
                             startYear={2012}
                             endYear={2016}
                             schoolName="Chaffey College"
                             schoolDescription="General Assembly is a private, for-profit education organization founded in early 2011. It maintains campuses in numerous countries throughout the world to teach entrepreneurs and business professionals practical technology skills.It provides courses in mobile and software engineering, data science, product management, and other digital-related courses."
                             />
-                            <hr style={{borderTop: '3px solid #e22947'}} />
+                            <hr style={{borderTop: '3px solid #e22947'}} /> */}
 
                         <h2>Experience</h2>
 
                     <Experience 
                         startYear={2013}
                         endYear={2020}
-                        jobName="Disney"
-                        jobDescription="General Assembly is a private, for-profit education organization founded in early 2011. It maintains campuses in numerous countries throughout the world to teach entrepreneurs and business professionals practical technology skills.It provides courses in mobile and software engineering, data science, product management, and other digital-related courses."
+                        jobName="Disney - Waiter/Busser"
+                        jobDescription=" 
+                         One of the highest grossing restaurants in Disneyland. Job duties included: working with a large team daily, serving and communicating with guests from every walks of life, problem solving and making every guests experience a special one."
                         />
 
                     <Experience 
                         startYear={2012}
                         endYear={2016}
-                        jobName="Aaron Home"
-                        jobDescription="General Assembly is a private, for-profit education organization founded in early 2011. It maintains campuses in numerous countries throughout the world to teach entrepreneurs and business professionals practical technology skills.It provides courses in mobile and software engineering, data science, product management, and other digital-related courses."
+                        jobName="Aaron Home - Care-Taker"
+                        jobDescription="Aaron Home is a government funded adult group home for the developmentally disabled. I worked there for 4 years as a caretaker for the clients on site. Job duties included: feeding, bathing , and transporting each client while treating each person with respect and helping them do what they can't do for themselves."
                         />
                         <hr style={{borderTop: '3px solid #e22947'}} />
                         <h2>Skills</h2>
                         <Skills 
-                            skill="javascript"
-                            progress={80}
+                            skill="Javascript"
+                            progress={90}
                         
                             />
                             <Skills 
                             skill="React"
-                            progress={70}
+                            progress={80}
                         
                             />
                                 <Skills 
@@ -95,7 +95,7 @@ class Resume extends Component {
                             />
                                     <Skills 
                             skill="Ruby On Rails"
-                            progress={30}
+                            progress={70}
                         
                             />
 

@@ -9,11 +9,11 @@ class Contact extends Component {
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Jonathan Rawlings</h2>
-                        <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                        <img src="https://i.imgur.com/6Uqc2uR.jpg"
                         alt='avatar'
-                        style={{height: '250px'}}
+                        style={{height: '250px', border: '1px solid black'}}
                         />
-                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Feel free to contact me anytime for job inquiries, freelance work, or any other questions you might have!
 </p>
                     </Cell>
                     <Cell col={6}>
@@ -24,27 +24,28 @@ class Contact extends Component {
                         <List>
                             <ListItem>
                                 
-                                <ListItemContent style={{fontSize: '32px', fontFamily: 'Anton'}}>
-                                <i className="fa fa-phone-square" aria-hidden="true" />
-                                (909)215-0173
+                                <ListItemContent style={{fontSize: '22px', fontFamily: 'Anton'}}>
+                                <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                LinkedIn.com/jonathanorawlings
+        
                                 </ListItemContent>
                             </ListItem>
                             
                             <ListItem>
                                 
-                                <ListItemContent style={{fontSize: '32px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '22px', fontFamily: 'Anton'}}>
                                 <i className="fa fa-envelope" aria-hidden="true" />
                                 Jonraw8@gmail.com
                                 </ListItemContent>
                             </ListItem>
 
-                            <ListItem>
+                            {/* <ListItem>
                                 
                                 <ListItemContent style={{fontSize: '32px', fontFamily: 'Anton'}}>
                                 <i className="fa fa-twitter-square" aria-hidden="true" />
                                 @SeVeRiNcE_
                                 </ListItemContent>
-                            </ListItem>
+                            </ListItem> */}
                             </List>
                         
                             </div>
