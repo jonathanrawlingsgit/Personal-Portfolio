@@ -12,9 +12,9 @@ class Projects extends Component {
          <div className='projects-grid'>
             {/* Project 1 */}
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png)'}}>React Project #1</CardTitle>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://raw.githubusercontent.com/jonathanrawlingsgit/react-message-board/main/client/src/img/Homepage.png)',backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat: 'no-repeat'}}>React Project #1</CardTitle>
                 <CardText>
-                    asdjflasdfjaslksdjkfjkasdfkalksdf;aslkdfasdf
+                    GameChat a gaming forum made using React.js and Postgresql.
                 </CardText>
                 <CardActions border>
                     <Button colored>Github</Button>
@@ -30,7 +30,7 @@ class Projects extends Component {
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/ppjMhfv.jpg)',backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat: 'no-repeat'}}>GoldenGun</CardTitle>
                 <CardText>
-                Vanilla JS Web Browser point and click shooting game
+                Vanilla JS Web Browser point and click shooting game.
                 </CardText>
                 <CardActions border>
                     <Button colored>Github</Button>
@@ -46,7 +46,7 @@ class Projects extends Component {
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                 <CardTitle style={{color: '#fff', height: '176px', backgroundImage: 'url(https://i.imgur.com/gwxHIff.png)',backgroundPosition:'center',backgroundSize:'cover'}}>Apex-Stat-Tracker</CardTitle>
                 <CardText>
-                    Video game stat tracking App created using JavaScript and Vue.js
+                    Video game stat tracking App created using JavaScript and Vue.js.
                 </CardText>
                 <CardActions border>
                     <Button colored>Github</Button>

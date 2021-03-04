@@ -16,7 +16,7 @@ class Landing extends Component {
                                 hairColor='Blonde'
                                 facialHairType='Blank'
                                 clotheType='Hoodie'
-                                clotheColor='PastelGreen'
+                                clotheColor='black'
                                 eyeType='Happy'
                                 eyebrowType='DefaultNatural'
                                 mouthType='Smile'
@@ -29,7 +29,7 @@ class Landing extends Component {
 
                               <hr/>
 
-                              <p>HTML/CSS | JavaScript | React | VueJs | NodeJs | Express | Ruby on Rails | SQL </p>
+                              <p> HTML/CSS  |  JavaScript  |  React  | NodeJs |  Express  |  Ruby  |  Ruby on Rails  </p>
                               <div className="social-links">
 
                                   {/* LinkedIn */}
