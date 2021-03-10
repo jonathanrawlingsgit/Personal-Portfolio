@@ -1,15 +1,29 @@
+.mdl-layout__header-row {
+  background-color: #474f85;
+  border-radius: 0px;
+background: linear-gradient(145deg, #4c558e, #404778);
+box-shadow:  18px 18px 35px #3c4371,
+             -18px -18px 35px #525b99;
+}
+.mdl-layout__content {
+  background-color: #474f85;
+}
 .header-color {
-  background: #e96443;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: black;
+  
+  
+}
+.name {
+  color: rgba(186, 186, 186, 0.605);
+  font-size: 76px;
+  font-family:;
+ 
   
 }
 .landing-grid {
-  background: #e96443;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #474f85; 
   text-align: center;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -17,24 +31,25 @@
 
 }
 
-.avatar-img {
-  height: 250px;
-  padding-top: 5em;
+
+
+
+
+.banner-text {
+  border-radius: 50px;
+  background: #474f85;
+  box-shadow:  32px 32px 65px #3c4371,
+             -32px -32px 65px #525b99;
+  width: 75%;
+  margin: auto;
  
 }
 
-.banner-text {
-  background-color: black;
-  opacity: .8;
-  width: 75%;
-  margin: auto;
-  border-radius: 10px;
-}
-
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 56px;
   font-weight: bold;
-  color: white;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 .banner-text hr {
@@ -44,7 +59,7 @@
 }
 
 .banner-text p {
-  color: white;
+  color: rgb(150, 150, 150);
   font-size: 20px;
   padding: 1em;
 
@@ -118,7 +133,6 @@
 
 }
 /* About Me page */
-h6 {
-  width: 600px;
-  border: 1px solid #27221F;
+.aboutme-container {
+
 }

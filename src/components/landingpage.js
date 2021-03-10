@@ -7,9 +7,11 @@ class Landing extends Component {
     render() {
         return (
             <div style={{width: '100%', margin: 'auto'}}>
+                
                 <Grid className='landing-grid'>
                     <Cell col={12}>
-                           <Avatar
+                    
+                           {/* <Avatar
                                 avatarStyle='Circle'
                                 topType='ShortHairShortRound'
                                 accessoriesType='Prescription02'
@@ -21,15 +23,16 @@ class Landing extends Component {
                                 eyebrowType='DefaultNatural'
                                 mouthType='Smile'
                                 skinColor='Pale'
-                            />
+                            /> */}
+                            
 
                           <div className="banner-text">
-                              
-                              <h1>Full Stack Web Developer</h1>
+                          <h1 className="name">Jonathan Rawlings</h1>
+                              <h1>Full-Stack Software Engineer</h1>
 
                               <hr/>
 
-                              <p> HTML/CSS  |  JavaScript  |  React  | NodeJs |  Express  |  Ruby  |  Ruby on Rails  </p>
+                              <p> HTML/CSS  |  JavaScript  |  React.js  | Node.js |  Express.js  |  Python  | Django | Ruby on Rails   </p>
                               <div className="social-links">
 
                                   {/* LinkedIn */}
