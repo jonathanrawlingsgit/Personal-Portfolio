@@ -1,3 +1,5 @@
+@import "react-slideshow-image/dist/styles.css";
+
 .mdl-layout__header-row {
   background-color: #474f85;
   border-radius: 0px;
@@ -16,12 +18,15 @@ box-shadow:  18px 18px 35px #3c4371,
 .name {
   color: rgba(186, 186, 186, 0.605);
   font-size: 76px;
-  font-family:;
+ 
  
   
 }
 .landing-grid {
-  background: #474f85; 
+ 
+  background-image: url('https://i.imgur.com/klGdMBR.png');
+  background-position: center;
+  background-repeat: repeat;
   text-align: center;
   position: absolute;
   top: 0;
@@ -38,8 +43,8 @@ box-shadow:  18px 18px 35px #3c4371,
 .banner-text {
   border-radius: 50px;
   background: #474f85;
-  box-shadow:  32px 32px 65px #3c4371,
-             -32px -32px 65px #525b99;
+  box-shadow:  32px 42px 65px #3c4371,
+             -32px -42px 65px #525b99;
   width: 75%;
   margin: auto;
  
@@ -134,5 +139,20 @@ box-shadow:  18px 18px 35px #3c4371,
 }
 /* About Me page */
 .aboutme-container {
+  border-radius: 15px;
+  text-align: center;
+  
+  color: white;
+background: #474f85;
+box-shadow: inset 35px 35px 70px #3c4371,
+            inset -35px -35px 70px #525b99;
+  width: 75%;
+  margin: auto;
 
+}
+
+.image-container {
+  object-fit: cover;
+  max-width: 300px;
+  max-height: 400px;
 }
