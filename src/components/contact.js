@@ -9,7 +9,7 @@ class Contact extends Component {
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Jonathan Rawlings</h2>
-                        <img src="https://i.imgur.com/6Uqc2uR.jpg"
+                        <img src="https://i.imgur.com/nvNCtYj.png"
                         alt='avatar'
                         style={{height: '250px', border: '1px solid black'}}
                         />
@@ -25,7 +25,7 @@ class Contact extends Component {
                             <ListItem>
                                 
                                 <ListItemContent style={{fontSize: '22px', fontFamily: 'Anton'}}>
-                                <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                
                                 LinkedIn.com/jonathanorawlings
         
                                 </ListItemContent>
@@ -34,7 +34,7 @@ class Contact extends Component {
                             <ListItem>
                                 
                                 <ListItemContent style={{fontSize: '22px', fontFamily: 'Anton'}}>
-                                <i className="fa fa-envelope" aria-hidden="true" />
+                               
                                 Jonraw8@gmail.com
                                 </ListItemContent>
                             </ListItem>
