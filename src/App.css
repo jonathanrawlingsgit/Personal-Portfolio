@@ -45,7 +45,7 @@ box-shadow:  18px 18px 25px #3c4371,
   border-radius: 50px;
   background: #474f85;
   box-shadow:  32px 52px 65px #2d3255,
-             -32px -42px 65px #525b99;
+             -32px -52px 65px #525b99;
   width: 65%;
   margin: auto;
  
@@ -140,11 +140,18 @@ box-shadow:  18px 18px 25px #3c4371,
 }
 /* About Me page */
 .aboutme-container {
-  display: flex;
-  align-items: center;
+  border-radius: 4px;
   justify-content: center;
+  text-align: center;
+  background: #474f85;
+  box-shadow:  32px 52px 65px #2d3255,
+             -32px -52px 65px #525b99;
+  width: 65%;
+  margin: auto;
 
 }
-.aboutme-image {
-  
+.aboutme-paragraph {
+  font-size: 25px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
 }

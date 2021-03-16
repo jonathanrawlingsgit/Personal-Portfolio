@@ -38,7 +38,9 @@ import React, { Component } from 'react'
 class About extends Component {
     render() {
         return (
+            
             <div className="aboutme-container">
+                <img className='about-img' src="https://i.imgur.com/p0OMppd.png"></img>
               
                 
           
